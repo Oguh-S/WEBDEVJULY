@@ -1,0 +1,150 @@
+*{
+    /* border: solid 1px red; */
+    box-sizing: border-box;
+}
+
+.Travel-card{
+    width: 550px;
+    height: 704px;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav{
+    width: 550px;
+    height: 55px;
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    gap: 3px;
+
+}
+
+
+.nav h1{
+    font-weight: 500;
+    font-size: 14.46px;
+}
+
+
+.cardHold{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 649px;
+    width: 100%;
+}
+
+
+.card{
+    width: 470px;
+    height: 168px;
+    display: flex;
+}
+
+.card img{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    object-fit: cover;
+
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 345px;
+    height: 100%;
+    gap: 15px;
+    padding: 10px;
+
+}
+
+.description h1, h4, p{
+    margin: 0;
+    padding: 0;
+}
+
+.location-icon{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-icon i{
+    color: #F55A5A;
+    font-size: 10px;
+    
+}
+
+
+.location-icon span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 10.24px;
+ 
+
+}
+
+.description a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10.24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    text-decoration-thickness: 0%;
+    color: #918E9B;
+}
+
+
+.description h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+
+.description h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 10.24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.description p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10.24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
